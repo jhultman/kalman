@@ -30,7 +30,7 @@ def plot_kalman(x, x_est):
         a.legend(['True', 'Predicted'])
         
     fig.suptitle('Kalman filter')
-    plt.savefig('./kalman.png')
+    plt.savefig('../images/kalman.png')
 
 
 def init_demo_kalman():
